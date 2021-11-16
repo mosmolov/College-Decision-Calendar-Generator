@@ -2567,9 +2567,9 @@ let obj = {
 }
 $(".submit").click(function () {
     var list = document.getElementById("collegeList").value.split(", ");
-    let DecisionDates = [];
-    const body = document.body,
     tb1 = document.createElement('table');
+    tb1.style.width = '75%';
+    tb1.style.margin = 'auto';
 tb1.style.border = '1px solid white';
 tb1.style.color = 'white';
 tb1.setAttribute('width', '100%');
@@ -2596,7 +2596,5 @@ tb1.setAttribute('width', '100%');
 
         console.log(obj);
     });
-    
-body.appendChild(tb1);
-    //document.getElementById("p").innerHTML = JSON.stringify(obj);
+    document.getElementById('displaySection').appendChild(tb1);
 });
