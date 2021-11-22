@@ -1,7 +1,7 @@
 let obj = {
     "schools": []
 }
-fetch('./info.json')
+fetch('/js/info.json')
     .then(response => response.json())
     .then(data => values = data)
     .catch(error => console.log(error));
