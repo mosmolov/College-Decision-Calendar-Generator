@@ -1,10 +1,9 @@
 let obj = {
     "schools": []
 }
-fetch('/js/info.json')
-    .then(response => response.json())
-    .then(data => values = data)
-    .catch(error => console.log(error));
+fetch("./scrape.js")
+.then(response => console.log(response))
+.then(data => values = data);
 $(".submit").click(function () {
     $("table").remove();
   var list = document.getElementById("collegeList").value.split(", ");
