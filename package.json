@@ -1,0 +1,29 @@
+{
+  "name": "decision-calendar-creator",
+  "version": "1.0.0",
+  "description": "## Generate a Personalized List of Decision Dates for the Colleges You Apply To",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosmolov/College-Decision-Calendar-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosmolov/College-Decision-Calendar-Generator/issues"
+  },
+  "homepage": "https://github.com/mosmolov/College-Decision-Calendar-Generator#readme"
+}
